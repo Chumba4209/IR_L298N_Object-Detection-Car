@@ -15,6 +15,11 @@ const int IN4 = 2;     // Motor direction
 
 int motorSpeed = 120;  // Speed range: 0 - 255
 
+// Prototypes
+void moveForward();
+void moveBackward();
+void stopMotor();
+
 void setup() {
  // Set the IR sensor pin as an input
   pinMode(IRpin1, INPUT);
